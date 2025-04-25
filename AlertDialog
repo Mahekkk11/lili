@@ -1,0 +1,10 @@
+AlertDialog.Builder(this)
+    .setTitle("Alert Title")
+    .setMessage("This is an alert dialog.")
+    .setPositiveButton("OK") { dialog, _ ->
+        dialog.dismiss()
+    }
+    .setNegativeButton("Cancel") { dialog, _ ->
+        dialog.dismiss()
+    }
+    .show()
