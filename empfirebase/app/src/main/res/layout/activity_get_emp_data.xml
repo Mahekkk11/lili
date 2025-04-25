@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetEmpDataActivity"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="15dp">
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:id="@+id/edtEId"
+        android:hint="Enter Emp ID"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/edtEFName"
+        android:hint="Enter First name"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:id="@+id/edtELName"
+        android:hint="Enter Last name"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Data"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnGetData"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Data"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnUpdate"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Data"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnDelete"
+        android:layout_gravity="center_horizontal"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
