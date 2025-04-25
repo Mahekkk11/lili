@@ -1,0 +1,5 @@
+val loginbtn = findViewById<Button>(R.id.loginbtn)
+        loginbtn.setOnClickListener {
+            val Intent = Intent(this,registerActivity::class.java)
+            startActivity(Intent)
+        }
