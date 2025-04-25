@@ -1,0 +1,1 @@
+Snackbar.make(findViewById(android.R.id.content), "This is a Snackbar", Snackbar.LENGTH_LONG).show()
