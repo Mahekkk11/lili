@@ -1,0 +1,4 @@
+Handler().postDelayed(kotlinx.coroutines.Runnable {
+            startActivity(Intent(this, login1Activity::class.java))
+            finish()
+        }, 3000)
